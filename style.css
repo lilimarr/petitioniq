@@ -136,6 +136,21 @@ body {
   padding: 30px;
   margin-top: 100px;
 }
+.why-three {
+  height: 50vh;
+  padding: 30px;
+  margin-top: 100px;
+}
+.why-four {
+  height: 50vh;
+  padding: 30px;
+  margin-top: 100px;
+}
+.why-five {
+  height: 50vh;
+  padding: 30px;
+  margin-top: 100px;
+}
 .why-title {
   font-size: 2.2rem;
   font-weight: bold;
@@ -247,23 +262,52 @@ body {
 .omo {
   text-align: left;
 }
-/* .about-content {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  max-width: 65vw;
-  margin: auto;
-  padding: 2rem;
-  flex-wrap: wrap;
-}
+@media screen and (max-width: 768px) {
+  .card-grid,
+  .second-card-grid,
+  .main,
+  .what,
+  .what-content,
+  .footer-grid {
+    grid-template-columns: 1fr;
+    max-width: 100vh;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .main {
+    height: 100vh;
+  }
+  .why {
+    height: 80vh;
+  }
+  .center {
+    height: 100vh;
+  }
+  .what {
+    margin-top: 900px;
+    padding: 2rem;
+  }
+  .why-two {
+    margin-top: 500px;
+  }
+  .why-three {
+    margin-top: 100px;
+  }
+  .why-four {
+    margin-top: 600px;
+  }
+  .why-five {
+    margin-top: 500px;
+  }
 
-.about-text {
-  flex: 1;
-  text-align: left;
+  .footer {
+    margin-top: 500px;
+    height: 100vh;
+  }
+  .center {
+    display: none;
+  }
+  .btn {
+    margin-top: 20px;
+  }
 }
-
-.about-image img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 10px;
-} */
