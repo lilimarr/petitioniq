@@ -29,9 +29,16 @@ body {
   padding: 5px 20px;
   box-shadow: 0 2px;
 }
-.logo {
+.logo a {
   font-size: 1.5rem;
   font-weight: bold;
+  color: #001d3d;
+  text-decoration: none;
+}
+.menu {
+  gap: 20px;
+}
+.menu a {
   color: #001d3d;
   text-decoration: none;
 }
@@ -43,6 +50,8 @@ body {
   border-radius: 0px;
   background: white;
   border: 0;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 .login:hover {
   background: #fbbd23;
@@ -71,6 +80,7 @@ body {
   border-radius: 5px;
   text-decoration: none;
   transition: 0.5s ease;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 .btn:hover {
@@ -84,6 +94,7 @@ body {
   border-radius: 5px;
   text-decoration: none;
   transition: 0.5s ease;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 .btn-2:hover {
@@ -111,7 +122,7 @@ body {
   border-radius: 10px;
   border: 1px solid #ddd;
   height: 350px;
-  box-shadow: 2px 2px 5px gray;
+  box-shadow: 2px 2px 5px rgb(181, 130, 26);
 }
 
 .second-card-grid {
@@ -129,6 +140,7 @@ body {
 .main-title {
   font-size: 3rem;
   font-weight: bold;
+  margin-top: 40px;
 }
 .second-title {
   color: gray;
@@ -150,7 +162,6 @@ body {
     rgba(47, 69, 97, 1) 89%
   );
   color: white;
-  height: 70vh;
   align-items: center;
   gap: 40px;
   background-color: white;
@@ -160,9 +171,9 @@ body {
   border: 20px;
   min-height: 60vh;
 }
-.first {
+/* .first {
   height: 60vh;
-}
+} */
 .icons {
   text-align: center;
   color: #fbbd23;
@@ -192,7 +203,7 @@ body {
 .why-three {
   height: 50vh;
   padding: 30px;
-  margin-top: 100px;
+  margin-top: 250px;
 }
 .why-four {
   height: 50vh;
@@ -202,7 +213,7 @@ body {
 .why-five {
   height: 50vh;
   padding: 30px;
-  margin-top: 100px;
+  margin-top: 250px;
 }
 .why-title {
   font-size: 2.2rem;
@@ -236,7 +247,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   background-color: rgba(128, 128, 128, 0.04);
   color: black;
-  height: 70vh;
+  height: 90vh;
   align-items: center;
   margin-top: 200px;
   text-align: center;
@@ -286,6 +297,9 @@ body {
   height: 50vh;
   padding: 80px;
 }
+.footiq {
+  margin-right: 30px;
+}
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -308,8 +322,10 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: white;
   gap: 10rem;
+}
+.list li a {
+  color: white;
   text-decoration: none;
 }
 .omo {
@@ -329,37 +345,50 @@ body {
   }
   .main {
     height: 100vh;
+    padding: 1rem;
+  }
+  .cards3 {
+    height: 300px;
   }
   .why {
-    height: 80vh;
+    height: 100vh;
+    display: contents;
   }
   /* .center {
     height: 100vh;
+
   } */
+  .whythird-title {
+    height: 50vh;
+    overflow-y: auto;
+    padding: 1rem;
+    margin-bottom: 30px;
+  }
   .what {
-    margin-top: 900px;
+    margin-top: 100px;
     padding: 2rem;
   }
   .why-two {
-    margin-top: 500px;
+    margin-top: 300px;
+    margin-bottom: 1300px;
   }
   .why-three {
     margin-top: 100px;
   }
   .why-four {
-    margin-top: 600px;
+    margin-top: 700px;
   }
   .why-five {
-    margin-top: 500px;
+    margin-top: 1300px;
   }
 
   .footer {
-    margin-top: 500px;
+    margin-top: 200px;
     height: 100vh;
   }
-  .center {
-    display: none;
-  }
+  /* .center {
+    display: none; */
+
   .btn {
     margin-top: 20px;
   }
